@@ -99,11 +99,13 @@ nav a:hover {
     border-radius: 6px;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .btn-primary {
     background-color: #00bcd4;
     color: #fff;
+    border: none; /* 去掉黑色边框 */
 }
 
 .btn-primary:hover {
@@ -113,6 +115,7 @@ nav a:hover {
 .btn-secondary {
     background-color: #4caf50;
     color: #fff;
+    cursor: pointer;
 }
 
 .btn-secondary:hover {
